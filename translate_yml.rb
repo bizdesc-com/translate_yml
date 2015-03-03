@@ -33,7 +33,11 @@ class TranslateYml
               
           @@lines[tokens[0]] = translated_char
         else
-          @@lines[tokens[0]] = tokens[1] 
+          if tokens[0].eql? from 
+            @@lines[to] = tokens[1] 
+          else 
+             @@lines[tokens[0]] = tokens[1] 
+          end     
         end        
       end
       
@@ -47,7 +51,7 @@ class TranslateYml
     @@lines.each do |key, value|      
       begin
         File.open(new_file, 'w') { |file| 
-          file.write(key.to_s + ': ' + value)
+          file.puts(key.to_s+ ': ' +value)
         } 
       rescue Exception => e  
         puts e.message  
