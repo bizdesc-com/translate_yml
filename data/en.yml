@@ -1,0 +1,115 @@
+en:
+  activerecord:
+    models:
+      employer:
+        one: Company
+        other: Companies
+  devise:
+    login: Login
+    register: Register
+    forgot_your_password: Forgot your password?
+    didnt_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
+    didnt_receive_unlock_instructions: "Didn't receive unlock instructions?"
+    omniauth: Log in with
+  errors:
+    not_linked_with_employer: You are not linked with that employer!
+    not_authorized: You are not authorized to access that resource!
+  flash:
+    changes_saved: Changes saved!
+    employer_created: Employer was successfully created.
+  forms:
+    employer_registration:
+      labels:
+        company_name: Company name
+    profile:
+      labels:
+        firstname: First Name
+        lastname: Last Name
+        title: Title
+        photo: Profile Photo
+  models:
+    attributes:
+      user:
+        employer: Company
+  pages:
+    employer_home_page:
+      headline: EMPLOYER
+    employer_login:
+      enter_email: Enter email
+      enter_password: Enter password
+      remember_me: Remember me
+      headline: LOGIN
+      login_button: LOG IN
+    employer_registration:
+      facebook: FACEBOOK
+      headline: REGISTRATION
+      register_button: REGISTER
+      registration_tag: EMPLOYER
+    new_employer:
+      headline: New employer
+    pro_homepage:
+      dashboard: Dashboard
+      following: Following
+      from_coach: From coach
+      jobs_for_me: Jobs For Me
+      my_messages: My Messages
+      my_to_do: My To Do
+      whats_hot: What\s Hot
+      profile_link: PROFILE
+    pro_login:
+      enter_email: Enter email
+      enter_password: Enter password
+      remember_me: Remember me
+      headline: LOGIN
+      login_button: LOG IN
+    pro_registration:
+      facebook: FACEBOOK
+      headline: REGISTRATION
+      register_button: REGISTER
+    pro_profile:
+      index:
+        headline: Profile
+        basic_info: Basic Info
+        education: Education
+        language: Language Skills
+        new_language_item: Add Language
+        edit_language_item: Edit Language
+        delete_language_item: Delete this Language
+        work_experience: Work Experience
+        new_work_experience_item: Add Work Experience
+        edit_work_experience_item: Edit Work Experience
+        delete_work_experience_item: Delete this Work Experience
+        new_education_item: Add a School
+      edit:
+        headline: Edit Profile
+        submit_button: Update Profile
+      education_items:
+        submit_button: Save School
+        edit:
+          headline: Edit school
+        new:
+          headline: Add new school
+      work_experience_items:
+        submit_button: Save
+        edit:
+          headline: Edit Work Experience
+        new:
+          headline: New Work Experience
+      language_items:
+        submit_button: Save
+        edit:
+          headline: Edit Language
+        new:
+          headline: New Language
+  paths:
+    admin_dashboard_path : Admin Dashboard
+    employers_new_session_path: EMPLOYERS
+    logout_path: Log out
+    new_user_registration_path: REGISTER
+    new_user_session_path: LOGIN
+    edit_profile_path: Edit Profile
+    employer_path: Company profile
+    edit_employer_path: Edit company profile
+    edit_education_item_path: Edit School
+    new_education_item_path: Add a School
+    delete_education_item_path: Delete this School
