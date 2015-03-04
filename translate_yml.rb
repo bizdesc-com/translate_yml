@@ -47,18 +47,18 @@ class TranslateYml
     end  
      
     new_file = path.gsub!('en', 'it') 
+   
+    begin
+      File.open(new_file, 'w') { |file| 
+        @@lines.each do |key, value|      
+          file.puts(key.to_s+ ': ' +value)          
+        end
+      }
+    rescue Exception => e  
+      puts e.message  
+      puts e.backtrace.inspect  
+    end    
     
-    @@lines.each do |key, value|      
-      begin
-        File.open(new_file, 'w') { |file| 
-          file.puts(key.to_s+ ': ' +value)
-        } 
-      rescue Exception => e  
-        puts e.message  
-        puts e.backtrace.inspect  
-      end    
-    end
-      
   end
   
     

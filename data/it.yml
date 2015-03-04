@@ -1,1 +1,89 @@
-    delete_education_item_path: MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. VISIT HTTP://MYMEMORY.TRANSLATED.NET/DOC/QUOTAREACHED TO TRANSLATE MORE
+it: 
+  activerecord: 
+    models: 
+      employer: 
+        one: Azienda
+        other: Società
+  devise: 
+    login: Accedi
+    register: Registrati
+    forgot_your_password: Password dimenticata?
+    didnt_receive_confirmation_instructions: "Non ha ricevuto le istruzioni di conferma?"
+    didnt_receive_unlock_instructions: "Non ho ricevuto istruzioni di sblocco?"
+    omniauth: Log in con
+  errors: 
+    not_linked_with_employer: Non sono collegati con quel datore di lavoro!
+    not_authorized: Non siete autorizzati ad accedere a quella risorsa!
+  flash: 
+    changes_saved: Modifiche salvate con successo!
+    employer_created: Datore di lavoro è stato creato correttamente.
+  forms: 
+    employer_registration: 
+      labels: 
+        company_name: Nome azienda
+    profile: 
+        firstname: Nome
+        lastname: Cognome
+        title: Titolo
+        photo: Profile Photo
+  models: 
+    attributes: 
+      user: 
+        employer: Azienda
+  pages: 
+    employer_home_page: 
+      headline: REGISTRAZIONE
+    employer_login: 
+      enter_email: Inserire l'email
+      enter_password: Immetti la password
+      remember_me: Ricordami
+      login_button: ACCEDI
+      facebook: FACEBOOK
+      register_button: REGISTRATI
+      registration_tag: DATORE DI LAVORO
+    new_employer: 
+    pro_homepage: 
+      dashboard: Bacheca
+      following: Following
+      from_coach: Da allenatore
+      jobs_for_me: Lavori per Me
+      my_messages: Messaggi
+      my_to_do: Il mio fare
+      whats_hot: Ultime novità
+      profile_link: PROFILO
+    pro_login: 
+    pro_registration: 
+    pro_profile: 
+      index: 
+        headline: Modifica profilo
+        basic_info: Informazioni di base
+        education: Studi
+        language: Conoscenze Linguistiche
+        new_language_item: Aggiungi lingua
+        edit_language_item: Modificare la lingua
+        delete_language_item: Elimina Lingua
+        work_experience: Esperienze professionali
+        new_work_experience_item: ESPERIENZA PROFESSIONALE
+        edit_work_experience_item: Modifica esperienza di lavoro
+        delete_work_experience_item: Eliminare questa esperienza di lavoro
+        new_education_item: Aggiungi scuola
+      edit: 
+        submit_button: Salvare
+      education_items: 
+        edit: 
+          headline: Nuova lingua
+        new: 
+      work_experience_items: 
+      language_items: 
+  paths: 
+    admin_dashboard_path : Admin Dashboard
+    employers_new_session_path: Datori di lavoro
+    logout_path: Log out
+    new_user_registration_path: REGISTRATI
+    new_user_session_path: ACCEDI
+    edit_profile_path: Modifica profilo
+    employer_path: Profilo aziendale
+    edit_employer_path: PRESENTAZIONE AZIENDALE
+    edit_education_item_path: Modifica scuola
+    new_education_item_path: Aggiungi scuola
+    delete_education_item_path: Eliminare questa scuola
